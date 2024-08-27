@@ -167,10 +167,10 @@ class ProfilePage extends StatelessWidget {
             children: [
               _buildSkillChip('Flutter'),
               _buildSkillChip('Dart'),
-              _buildSkillChip('Firebase'),
+              _buildSkillChip('Laravel'),
               _buildSkillChip('REST API'),
               _buildSkillChip('UI/UX Design'),
-              _buildSkillChip('Git'),
+              _buildSkillChip('React.Js'),
             ],
           ),
         ],
