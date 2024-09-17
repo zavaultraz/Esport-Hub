@@ -41,7 +41,7 @@ class _SportsHomePageState extends State<SportsHomePage> {
         ),
         centerTitle: true,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back, color: Colors.blueAccent),
+          icon: const Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () {
             Navigator.of(context).pop();
           },
@@ -52,11 +52,7 @@ class _SportsHomePageState extends State<SportsHomePage> {
           ),
           child: Container(
             decoration: BoxDecoration(
-              gradient: LinearGradient(
-                colors: [Colors.blue[100]!, Colors.blue[300]!],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
+            color: Colors.blue[900]
             ),
           ),
         ),
@@ -214,11 +210,7 @@ class _SportsHomePageState extends State<SportsHomePage> {
 
     return Container(
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [Colors.white, Colors.blue[50]!],
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-        ),
+       color: Colors.white
       ),
       child: ListView.builder(
         padding: const EdgeInsets.all(16.0),

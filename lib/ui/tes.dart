@@ -82,7 +82,7 @@ class TesScreen extends StatelessWidget {
       Player(nama: 'Karl Tzy',
         role: 'Jungler',
         team: 'Liquid PH',
-        deskripsi: 'Roamer yang sudah tak perlu diragukan lagi kepiawaiannya dalam menggunakan hero high mekanik',
+        deskripsi: 'Jungler yang sudah tak perlu diragukan lagi kepiawaiannya dalam menggunakan hero high mekanik',
         gambar: 'assets/images/karl.png',
         prestasi: '1st Winner M4',
         negara: 'Philiphine',
@@ -132,7 +132,7 @@ class TesScreen extends StatelessWidget {
       ),
       Player(nama: 'Dreams',
         role: 'ROAMER',
-        team: 'Liquid PH',
+        team: 'Evos Glory',
         deskripsi: 'Jungler Juara Dunia yang sudah tak perlu diragukan lagi kepiawaiannya dalam menggunakan hero high mekanik',
         gambar: 'assets/images/dreams.png',
         prestasi: 'IESF 2020',
@@ -184,6 +184,7 @@ class TesScreen extends StatelessWidget {
     ];
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Persistent Bottom Navigation Bar Demo',
       home: PersistentTabView(
         tabs: [

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       home: IntroPage(),
-      debugShowCheckedModeBanner: true ,
+      debugShowCheckedModeBanner: false,
 
       routes: {
         '/test' : (context)=>const TesScreen(),

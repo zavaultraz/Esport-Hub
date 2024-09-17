@@ -9,6 +9,7 @@ class DetailPlayerScreen extends StatelessWidget {
   @override
     Widget build(BuildContext context) {
       return MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData.light(), // Mengatur tema menjadi terang
         home: Scaffold(
           backgroundColor: Colors.white, // Latar belakang menjadi putih

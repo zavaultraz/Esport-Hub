@@ -13,6 +13,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
         fontFamily: 'Nexa',
@@ -38,7 +39,7 @@ class Home extends StatelessWidget {
             'ESPORT HUB',
             textAlign: TextAlign.start,
             style: TextStyle(
-              color: Colors.blueAccent,
+              color: Colors.blue,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -144,7 +145,7 @@ class Home extends StatelessWidget {
                 const SizedBox(height: 18,),
                 Container(
                   decoration: BoxDecoration(
-                    color: Colors.blueAccent,
+                    color: Colors.blue[700],
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: const [
                       BoxShadow(
