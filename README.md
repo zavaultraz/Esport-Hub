@@ -11,15 +11,15 @@ Welcome to **Esport Hub**! 🌟 This application provides a comprehensive platfo
 
 ## Technologies Used
 
-- **Frontend**: React ⚛️
-- **Backend**: Node.js, Express 🚀
-- **Database**: MongoDB 🗄️
-- **Styling**: CSS, Bootstrap 🎨
+- **Frontend**: Flutter ⚛️
+- **Backend**: Laravel 🚀
+- **Database**: MySql 🐬
+
 
 ## Installation
 
 To get started with Esport Hub, follow these steps:
 
-1. **Clone the repository**:
+**Clone the repository**:
    ```bash
    git clone https://github.com/zavaultraz/Esport-Hub.git
