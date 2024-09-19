@@ -1,16 +1,25 @@
-# lister
+# 🎮 Esport Hub
 
-A new Flutter project.
+Welcome to **Esport Hub**! 🌟 This application provides a comprehensive platform for all things esports. Here, you can find data on professional players, articles, match statistics, tournament stats, and much more.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **👾 Pro Player Database**: Access detailed profiles and statistics of professional esports players across various games.
+- **📰 Articles**: Read the latest articles and news related to esports and gaming.
+- **📊 Match Statistics**: View in-depth statistics from recent matches, including player performance and team analysis.
+- **🏆 Tournament Stats**: Get information about ongoing and past tournaments, including schedules, results, and rankings.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Frontend**: React ⚛️
+- **Backend**: Node.js, Express 🚀
+- **Database**: MongoDB 🗄️
+- **Styling**: CSS, Bootstrap 🎨
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+To get started with Esport Hub, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/zavaultraz/Esport-Hub.git
